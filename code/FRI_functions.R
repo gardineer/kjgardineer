@@ -43,5 +43,3 @@ View(TRAGD)
 
 
 write.csv(TRAGD, file = "this.csv")
-
-?write.csv
