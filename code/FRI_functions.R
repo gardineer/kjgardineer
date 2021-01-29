@@ -32,7 +32,7 @@ library(readxl)
 setwd()
 ?odbcConnectAccess2007
 
-db<- file.path("C:/GitHub/Sandbox/Flowpath.accdb")
+db<- file.path("C:/GitHub/Databases/Flowpath.accdb")
 
 channel<- odbcConnectAccess2007(db)
 
@@ -43,5 +43,3 @@ View(TRAGD)
 
 
 write.csv(TRAGD, file = "this.csv")
-
-?write.csv
